@@ -1,0 +1,87 @@
+body {
+    margin: 0px
+}
+
+h3 {
+    color: #fff;
+    background-color: #777;
+    padding: 10px;
+}
+
+label {
+    color: #777;
+}
+
+.posts {
+    width: 100vw;
+    height: 80vh;
+    background: #fff;
+    display: block;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Alinha ao centro horizontalmente */
+    align-items: center;
+    /* Alinha ao centro verticalmente */
+}
+
+.card {
+    margin: 0 auto;
+    top: 30px;
+    padding: 15px;
+    width: 500px;
+    height: 470px;
+    border: solid 1px #ccc;
+    overflow-y: scroll;
+}
+
+.card::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+.card::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+.card-header {
+    border: solid 1px #ccc;
+}
+
+.card-body {
+    border: solid 1px #ccc;
+}
+
+.btn-add {
+    padding: 5px 5px 10px 5px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Alinha ao centro horizontalmente */
+    /* align-items: center; */
+    /* Alinha ao centro verticalmente */
+}
+
+.form {
+    margin-top: 50px;
+    padding: 15px;
+    width: 500px;
+    height: 400px;
+    background: #FFF(224, 224, 224);
+    border-radius: 8px;
+}
+
+.form>border>h3 {
+    color: rgb(71, 63, 63);
+}

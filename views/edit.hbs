@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="form border">
+        <h3 class="text-center">Editar Postagem</h3>
+        <hr>
+        <form action="/edition/{{ id }}" method="post">
+            <label for="titulo">Título:</label>
+            <input type="text" name="titulo" class="form-control" value="{{ titulo }}"><br>
+            <label for="conteudo">Conteúdo:</label>
+            <textarea name="conteudo" class="form-control">{{ conteudo }}</textarea><br>
+            <button type="submit" class="btn btn-success float-right"><i class="fa fa-refresh"></i> Editar</button>
+            <a href="/" class="btn btn-secondary float-righ mr-2"><i class="fa fa-remove"></i> Cancelar</a>
+        </form>
+    </div>
+</div>
